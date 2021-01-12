@@ -8,7 +8,8 @@
 ### Preparando entorno
 ###### Domain for applications
 - nano /etc/hosts
-    //Add the following line
+
+    Add the following line
     `127.0.0.1 your_domain.local`
 
 ###### Create folder and clone repository
