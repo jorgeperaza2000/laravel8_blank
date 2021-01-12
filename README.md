@@ -1,3 +1,4 @@
+INSTALL
 
 - mkdir new_project
 - git clone https://github.com/jorgeperaza2000/laravel8_blank.git .
