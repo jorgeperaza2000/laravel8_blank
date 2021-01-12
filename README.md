@@ -27,13 +27,20 @@
 - cp .env.example .env
 - nano .env
 
-	> ...
+	...
+    
     DB_CONNECTION=mysql
+    
     DB_HOST=db
+    
     DB_PORT=3306
+    
     DB_DATABASE=your_database_name
+    
     DB_USERNAME=your_user_name
+    
     DB_PASSWORD=your_password
+    
     ...
 
 ###### Start docker-compose 
