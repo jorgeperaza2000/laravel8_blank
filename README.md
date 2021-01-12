@@ -19,12 +19,14 @@
 ###### Editing configurations files
 - nano docker-compose/nginx/vhost.conf
 
-	#Search and replace 
+	#Search and replace
+    
     server_name your_domain.local;
 
   
 - cp .env.example .env
 - nano .env
+
 	> ...
     DB_CONNECTION=mysql
     DB_HOST=db
@@ -33,6 +35,7 @@
     DB_USERNAME=your_user_name
     DB_PASSWORD=your_password
     ...
+
 ###### Start docker-compose 
 - docker-compose up -d (for stop use docker-compose down)
 ###### Install laravel vendors 
