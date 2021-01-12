@@ -9,16 +9,18 @@
 ###### Domain for applications
 - nano /etc/hosts
 
-    Add the following line
-    `127.0.0.1 your_domain.local`
+    #Add the following line
+     
+    127.0.0.1 your_domain.local
 
 ###### Create folder and clone repository
 - mkdir new_project && cd new_project 
 - git clone https://github.com/jorgeperaza2000/laravel8_blank.git .
 ###### Editing configurations files
 - nano docker-compose/nginx/vhost.conf
-	//Search and replace 
-    `server_name your_domain.local;`
+
+	#Search and replace 
+    server_name your_domain.local;
 
   
 - cp .env.example .env
