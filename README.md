@@ -1,8 +1,8 @@
 INSTALL
 
 - mkdir new_project
-- git clone https://github.com/jorgeperaza2000/laravel8_blank.git .
 - cd new_project
+- git clone https://github.com/jorgeperaza2000/laravel8_blank.git .
 - nano docker-compose/nginx/vhost.conf
     #Search and replace 
     server_name your_domain.local;
